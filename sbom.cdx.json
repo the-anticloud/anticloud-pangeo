@@ -1,0 +1,1145 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a50292ac-f978-518c-9376-8713d40a1f62",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-07T08:36:19Z",
+    "component": {
+      "type": "application",
+      "name": "PANGEO",
+      "version": "92364799b4a4",
+      "bom-ref": "pkg:generic/anticloud/PANGEO@92364799b4a4",
+      "purl": "pkg:generic/anticloud/PANGEO@92364799b4a4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "92364799b4a45b876f8d5147f4e2e432ea56e4f4"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/anticloud-pangeo.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "notebook",
+      "version": "unspecified",
+      "purl": "pkg:generic/notebook",
+      "bom-ref": "conda/notebook@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "lock.",
+      "version": "unspecified",
+      "purl": "pkg:generic/lock.",
+      "bom-ref": "conda/lock.@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "conda-forge",
+      "version": "unspecified",
+      "purl": "pkg:generic/conda-forge",
+      "bom-ref": "conda/conda-forge@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "nodefaults",
+      "version": "unspecified",
+      "purl": "pkg:generic/nodefaults",
+      "bom-ref": "conda/nodefaults@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cuda-version",
+      "version": "unspecified",
+      "purl": "pkg:generic/cuda-version",
+      "bom-ref": "conda/cuda-version@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jupyterlab-nvdashboard",
+      "version": "unspecified",
+      "purl": "pkg:generic/jupyterlab-nvdashboard",
+      "bom-ref": "conda/jupyterlab-nvdashboard@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gpytorch",
+      "version": "unspecified",
+      "purl": "pkg:generic/gpytorch",
+      "bom-ref": "conda/gpytorch@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pytorch",
+      "version": "unspecified",
+      "purl": "pkg:generic/pytorch",
+      "bom-ref": "conda/pytorch@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "torchvision",
+      "version": "unspecified",
+      "purl": "pkg:generic/torchvision",
+      "bom-ref": "conda/torchvision@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "torchgeo",
+      "version": "unspecified",
+      "purl": "pkg:generic/torchgeo",
+      "bom-ref": "conda/torchgeo@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "adlfs",
+      "version": "unspecified",
+      "purl": "pkg:generic/adlfs",
+      "bom-ref": "conda/adlfs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "argopy",
+      "version": "unspecified",
+      "purl": "pkg:generic/argopy",
+      "bom-ref": "conda/argopy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "awscli",
+      "version": "unspecified",
+      "purl": "pkg:generic/awscli",
+      "bom-ref": "conda/awscli@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "black",
+      "version": "unspecified",
+      "purl": "pkg:generic/black",
+      "bom-ref": "conda/black@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "boto3",
+      "version": "unspecified",
+      "purl": "pkg:generic/boto3",
+      "bom-ref": "conda/boto3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "bottleneck",
+      "version": "unspecified",
+      "purl": "pkg:generic/bottleneck",
+      "bom-ref": "conda/bottleneck@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cartopy",
+      "version": "unspecified",
+      "purl": "pkg:generic/cartopy",
+      "bom-ref": "conda/cartopy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cdsapi",
+      "version": "unspecified",
+      "purl": "pkg:generic/cdsapi",
+      "bom-ref": "conda/cdsapi@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cfgrib",
+      "version": "unspecified",
+      "purl": "pkg:generic/cfgrib",
+      "bom-ref": "conda/cfgrib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cf_xarray",
+      "version": "unspecified",
+      "purl": "pkg:generic/cf_xarray",
+      "bom-ref": "conda/cf_xarray@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ciso",
+      "version": "unspecified",
+      "purl": "pkg:generic/ciso",
+      "bom-ref": "conda/ciso@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cmocean",
+      "version": "unspecified",
+      "purl": "pkg:generic/cmocean",
+      "bom-ref": "conda/cmocean@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "contextily",
+      "version": "unspecified",
+      "purl": "pkg:generic/contextily",
+      "bom-ref": "conda/contextily@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "dask-geopandas",
+      "version": "unspecified",
+      "purl": "pkg:generic/dask-geopandas",
+      "bom-ref": "conda/dask-geopandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "dask-ml",
+      "version": "unspecified",
+      "purl": "pkg:generic/dask-ml",
+      "bom-ref": "conda/dask-ml@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "datashader",
+      "version": "unspecified",
+      "purl": "pkg:generic/datashader",
+      "bom-ref": "conda/datashader@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "descartes",
+      "version": "unspecified",
+      "purl": "pkg:generic/descartes",
+      "bom-ref": "conda/descartes@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "duckdb-cli",
+      "version": "unspecified",
+      "purl": "pkg:generic/duckdb-cli",
+      "bom-ref": "conda/duckdb-cli@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "earthaccess",
+      "version": "unspecified",
+      "purl": "pkg:generic/earthaccess",
+      "bom-ref": "conda/earthaccess@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "eofs",
+      "version": "unspecified",
+      "purl": "pkg:generic/eofs",
+      "bom-ref": "conda/eofs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "erddapy",
+      "version": "unspecified",
+      "purl": "pkg:generic/erddapy",
+      "bom-ref": "conda/erddapy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "esmpy",
+      "version": "unspecified",
+      "purl": "pkg:generic/esmpy",
+      "bom-ref": "conda/esmpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fastjmd95",
+      "version": "unspecified",
+      "purl": "pkg:generic/fastjmd95",
+      "bom-ref": "conda/fastjmd95@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "flox",
+      "version": "unspecified",
+      "purl": "pkg:generic/flox",
+      "bom-ref": "conda/flox@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fsspec",
+      "version": "unspecified",
+      "purl": "pkg:generic/fsspec",
+      "bom-ref": "conda/fsspec@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gcm_filters",
+      "version": "unspecified",
+      "purl": "pkg:generic/gcm_filters",
+      "bom-ref": "conda/gcm_filters@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gcsfs",
+      "version": "unspecified",
+      "purl": "pkg:generic/gcsfs",
+      "bom-ref": "conda/gcsfs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gdal",
+      "version": "unspecified",
+      "purl": "pkg:generic/gdal",
+      "bom-ref": "conda/gdal@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gh",
+      "version": "unspecified",
+      "purl": "pkg:generic/gh",
+      "bom-ref": "conda/gh@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gh-scoped-creds",
+      "version": "unspecified",
+      "purl": "pkg:generic/gh-scoped-creds",
+      "bom-ref": "conda/gh-scoped-creds@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "geocube",
+      "version": "unspecified",
+      "purl": "pkg:generic/geocube",
+      "bom-ref": "conda/geocube@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "geopandas",
+      "version": "unspecified",
+      "purl": "pkg:generic/geopandas",
+      "bom-ref": "conda/geopandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "geopy",
+      "version": "unspecified",
+      "purl": "pkg:generic/geopy",
+      "bom-ref": "conda/geopy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "geoviews-core",
+      "version": "unspecified",
+      "purl": "pkg:generic/geoviews-core",
+      "bom-ref": "conda/geoviews-core@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "git-lfs",
+      "version": "unspecified",
+      "purl": "pkg:generic/git-lfs",
+      "bom-ref": "conda/git-lfs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "google-cloud-sdk",
+      "version": "unspecified",
+      "purl": "pkg:generic/google-cloud-sdk",
+      "bom-ref": "conda/google-cloud-sdk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gsw",
+      "version": "unspecified",
+      "purl": "pkg:generic/gsw",
+      "bom-ref": "conda/gsw@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "h5netcdf",
+      "version": "unspecified",
+      "purl": "pkg:generic/h5netcdf",
+      "bom-ref": "conda/h5netcdf@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "h5py",
+      "version": "unspecified",
+      "purl": "pkg:generic/h5py",
+      "bom-ref": "conda/h5py@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "holoviews",
+      "version": "unspecified",
+      "purl": "pkg:generic/holoviews",
+      "bom-ref": "conda/holoviews@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "hvplot",
+      "version": "unspecified",
+      "purl": "pkg:generic/hvplot",
+      "bom-ref": "conda/hvplot@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "icechunk",
+      "version": "unspecified",
+      "purl": "pkg:generic/icechunk",
+      "bom-ref": "conda/icechunk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "intake",
+      "version": "unspecified",
+      "purl": "pkg:generic/intake",
+      "bom-ref": "conda/intake@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "intake-esm",
+      "version": "unspecified",
+      "purl": "pkg:generic/intake-esm",
+      "bom-ref": "conda/intake-esm@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "intake-geopandas",
+      "version": "unspecified",
+      "purl": "pkg:generic/intake-geopandas",
+      "bom-ref": "conda/intake-geopandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "intake-stac",
+      "version": "unspecified",
+      "purl": "pkg:generic/intake-stac",
+      "bom-ref": "conda/intake-stac@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "intake-xarray",
+      "version": "unspecified",
+      "purl": "pkg:generic/intake-xarray",
+      "bom-ref": "conda/intake-xarray@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ipdb",
+      "version": "unspecified",
+      "purl": "pkg:generic/ipdb",
+      "bom-ref": "conda/ipdb@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ipykernel",
+      "version": "unspecified",
+      "purl": "pkg:generic/ipykernel",
+      "bom-ref": "conda/ipykernel@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ipyleaflet",
+      "version": "unspecified",
+      "purl": "pkg:generic/ipyleaflet",
+      "bom-ref": "conda/ipyleaflet@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ipympl",
+      "version": "unspecified",
+      "purl": "pkg:generic/ipympl",
+      "bom-ref": "conda/ipympl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ipytree",
+      "version": "unspecified",
+      "purl": "pkg:generic/ipytree",
+      "bom-ref": "conda/ipytree@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ipywidgets",
+      "version": "unspecified",
+      "purl": "pkg:generic/ipywidgets",
+      "bom-ref": "conda/ipywidgets@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jupyterlab_code_formatter",
+      "version": "unspecified",
+      "purl": "pkg:generic/jupyterlab_code_formatter",
+      "bom-ref": "conda/jupyterlab_code_formatter@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jupyterlab-git",
+      "version": "unspecified",
+      "purl": "pkg:generic/jupyterlab-git",
+      "bom-ref": "conda/jupyterlab-git@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jupyterlab-lsp",
+      "version": "unspecified",
+      "purl": "pkg:generic/jupyterlab-lsp",
+      "bom-ref": "conda/jupyterlab-lsp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jupyterlab-myst",
+      "version": "unspecified",
+      "purl": "pkg:generic/jupyterlab-myst",
+      "bom-ref": "conda/jupyterlab-myst@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jupyter-panel-proxy",
+      "version": "unspecified",
+      "purl": "pkg:generic/jupyter-panel-proxy",
+      "bom-ref": "conda/jupyter-panel-proxy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jupyter-resource-usage",
+      "version": "unspecified",
+      "purl": "pkg:generic/jupyter-resource-usage",
+      "bom-ref": "conda/jupyter-resource-usage@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jupyter-sshd-proxy",
+      "version": "unspecified",
+      "purl": "pkg:generic/jupyter-sshd-proxy",
+      "bom-ref": "conda/jupyter-sshd-proxy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "kerchunk",
+      "version": "unspecified",
+      "purl": "pkg:generic/kerchunk",
+      "bom-ref": "conda/kerchunk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libgdal-arrow-parquet",
+      "version": "unspecified",
+      "purl": "pkg:generic/libgdal-arrow-parquet",
+      "bom-ref": "conda/libgdal-arrow-parquet@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "libgdal-netcdf",
+      "version": "unspecified",
+      "purl": "pkg:generic/libgdal-netcdf",
+      "bom-ref": "conda/libgdal-netcdf@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "line_profiler",
+      "version": "unspecified",
+      "purl": "pkg:generic/line_profiler",
+      "bom-ref": "conda/line_profiler@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "lonboard",
+      "version": "unspecified",
+      "purl": "pkg:generic/lonboard",
+      "bom-ref": "conda/lonboard@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "lxml",
+      "version": "unspecified",
+      "purl": "pkg:generic/lxml",
+      "bom-ref": "conda/lxml@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "lz4",
+      "version": "unspecified",
+      "purl": "pkg:generic/lz4",
+      "bom-ref": "conda/lz4@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib-base",
+      "version": "unspecified",
+      "purl": "pkg:generic/matplotlib-base",
+      "bom-ref": "conda/matplotlib-base@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "memory_profiler",
+      "version": "unspecified",
+      "purl": "pkg:generic/memory_profiler",
+      "bom-ref": "conda/memory_profiler@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "metpy",
+      "version": "unspecified",
+      "purl": "pkg:generic/metpy",
+      "bom-ref": "conda/metpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "nb_conda_kernels",
+      "version": "unspecified",
+      "purl": "pkg:generic/nb_conda_kernels",
+      "bom-ref": "conda/nb_conda_kernels@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "nbstripout",
+      "version": "unspecified",
+      "purl": "pkg:generic/nbstripout",
+      "bom-ref": "conda/nbstripout@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "nc-time-axis",
+      "version": "unspecified",
+      "purl": "pkg:generic/nc-time-axis",
+      "bom-ref": "conda/nc-time-axis@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "netcdf4",
+      "version": "unspecified",
+      "purl": "pkg:generic/netcdf4",
+      "bom-ref": "conda/netcdf4@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numbagg",
+      "version": "unspecified",
+      "purl": "pkg:generic/numbagg",
+      "bom-ref": "conda/numbagg@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numcodecs",
+      "version": "unspecified",
+      "purl": "pkg:generic/numcodecs",
+      "bom-ref": "conda/numcodecs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:generic/numpy",
+      "bom-ref": "conda/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy_groupies",
+      "version": "unspecified",
+      "purl": "pkg:generic/numpy_groupies",
+      "bom-ref": "conda/numpy_groupies@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "obstore",
+      "version": "unspecified",
+      "purl": "pkg:generic/obstore",
+      "bom-ref": "conda/obstore@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "odc-stac",
+      "version": "unspecified",
+      "purl": "pkg:generic/odc-stac",
+      "bom-ref": "conda/odc-stac@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "openssh",
+      "version": "unspecified",
+      "purl": "pkg:generic/openssh",
+      "bom-ref": "conda/openssh@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "unspecified",
+      "purl": "pkg:generic/pandas",
+      "bom-ref": "conda/pandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "panel",
+      "version": "unspecified",
+      "purl": "pkg:generic/panel",
+      "bom-ref": "conda/panel@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "https",
+      "version": "unspecified",
+      "purl": "pkg:generic/https",
+      "bom-ref": "conda/https@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "parcels",
+      "version": "unspecified",
+      "purl": "pkg:generic/parcels",
+      "bom-ref": "conda/parcels@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "param",
+      "version": "unspecified",
+      "purl": "pkg:generic/param",
+      "bom-ref": "conda/param@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "planetary-computer",
+      "version": "unspecified",
+      "purl": "pkg:generic/planetary-computer",
+      "bom-ref": "conda/planetary-computer@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pop-tools",
+      "version": "unspecified",
+      "purl": "pkg:generic/pop-tools",
+      "bom-ref": "conda/pop-tools@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pot",
+      "version": "unspecified",
+      "purl": "pkg:generic/pot",
+      "bom-ref": "conda/pot@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pyarrow",
+      "version": "unspecified",
+      "purl": "pkg:generic/pyarrow",
+      "bom-ref": "conda/pyarrow@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pycamhd",
+      "version": "unspecified",
+      "purl": "pkg:generic/pycamhd",
+      "bom-ref": "conda/pycamhd@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pydap",
+      "version": "unspecified",
+      "purl": "pkg:generic/pydap",
+      "bom-ref": "conda/pydap@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pystac",
+      "version": "unspecified",
+      "purl": "pkg:generic/pystac",
+      "bom-ref": "conda/pystac@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pystac-client",
+      "version": "unspecified",
+      "purl": "pkg:generic/pystac-client",
+      "bom-ref": "conda/pystac-client@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python-blosc",
+      "version": "unspecified",
+      "purl": "pkg:generic/python-blosc",
+      "bom-ref": "conda/python-blosc@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python-duckdb",
+      "version": "unspecified",
+      "purl": "pkg:generic/python-duckdb",
+      "bom-ref": "conda/python-duckdb@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python-gist",
+      "version": "unspecified",
+      "purl": "pkg:generic/python-gist",
+      "bom-ref": "conda/python-gist@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python-graphviz",
+      "version": "unspecified",
+      "purl": "pkg:generic/python-graphviz",
+      "bom-ref": "conda/python-graphviz@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python-lsp-ruff",
+      "version": "unspecified",
+      "purl": "pkg:generic/python-lsp-ruff",
+      "bom-ref": "conda/python-lsp-ruff@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python-xxhash",
+      "version": "unspecified",
+      "purl": "pkg:generic/python-xxhash",
+      "bom-ref": "conda/python-xxhash@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rasterio",
+      "version": "unspecified",
+      "purl": "pkg:generic/rasterio",
+      "bom-ref": "conda/rasterio@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rclone",
+      "version": "unspecified",
+      "purl": "pkg:generic/rclone",
+      "bom-ref": "conda/rclone@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rechunker",
+      "version": "unspecified",
+      "purl": "pkg:generic/rechunker",
+      "bom-ref": "conda/rechunker@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rio-cogeo",
+      "version": "unspecified",
+      "purl": "pkg:generic/rio-cogeo",
+      "bom-ref": "conda/rio-cogeo@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rioxarray",
+      "version": "unspecified",
+      "purl": "pkg:generic/rioxarray",
+      "bom-ref": "conda/rioxarray@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ruff",
+      "version": "unspecified",
+      "purl": "pkg:generic/ruff",
+      "bom-ref": "conda/ruff@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "s3fs",
+      "version": "unspecified",
+      "purl": "pkg:generic/s3fs",
+      "bom-ref": "conda/s3fs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "satpy",
+      "version": "unspecified",
+      "purl": "pkg:generic/satpy",
+      "bom-ref": "conda/satpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-image",
+      "version": "unspecified",
+      "purl": "pkg:generic/scikit-image",
+      "bom-ref": "conda/scikit-image@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-learn",
+      "version": "unspecified",
+      "purl": "pkg:generic/scikit-learn",
+      "bom-ref": "conda/scikit-learn@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "unspecified",
+      "purl": "pkg:generic/scipy",
+      "bom-ref": "conda/scipy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "seaborn",
+      "version": "unspecified",
+      "purl": "pkg:generic/seaborn",
+      "bom-ref": "conda/seaborn@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sparse",
+      "version": "unspecified",
+      "purl": "pkg:generic/sparse",
+      "bom-ref": "conda/sparse@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "snakeviz",
+      "version": "unspecified",
+      "purl": "pkg:generic/snakeviz",
+      "bom-ref": "conda/snakeviz@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "stackstac",
+      "version": "unspecified",
+      "purl": "pkg:generic/stackstac",
+      "bom-ref": "conda/stackstac@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tiledb-py",
+      "version": "unspecified",
+      "purl": "pkg:generic/tiledb-py",
+      "bom-ref": "conda/tiledb-py@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "timezonefinder",
+      "version": "unspecified",
+      "purl": "pkg:generic/timezonefinder",
+      "bom-ref": "conda/timezonefinder@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "virtualizarr",
+      "version": "unspecified",
+      "purl": "pkg:generic/virtualizarr",
+      "bom-ref": "conda/virtualizarr@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "watermark",
+      "version": "unspecified",
+      "purl": "pkg:generic/watermark",
+      "bom-ref": "conda/watermark@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xarray",
+      "version": "unspecified",
+      "purl": "pkg:generic/xarray",
+      "bom-ref": "conda/xarray@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xarrayutils",
+      "version": "unspecified",
+      "purl": "pkg:generic/xarrayutils",
+      "bom-ref": "conda/xarrayutils@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xarray_leaflet",
+      "version": "unspecified",
+      "purl": "pkg:generic/xarray_leaflet",
+      "bom-ref": "conda/xarray_leaflet@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xarray-spatial",
+      "version": "unspecified",
+      "purl": "pkg:generic/xarray-spatial",
+      "bom-ref": "conda/xarray-spatial@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xbatcher",
+      "version": "unspecified",
+      "purl": "pkg:generic/xbatcher",
+      "bom-ref": "conda/xbatcher@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "forge",
+      "version": "unspecified",
+      "purl": "pkg:generic/forge",
+      "bom-ref": "conda/forge@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "feedstock",
+      "version": "unspecified",
+      "purl": "pkg:generic/feedstock",
+      "bom-ref": "conda/feedstock@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xcape",
+      "version": "unspecified",
+      "purl": "pkg:generic/xcape",
+      "bom-ref": "conda/xcape@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xclim",
+      "version": "unspecified",
+      "purl": "pkg:generic/xclim",
+      "bom-ref": "conda/xclim@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xesmf",
+      "version": "unspecified",
+      "purl": "pkg:generic/xesmf",
+      "bom-ref": "conda/xesmf@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xgboost",
+      "version": "unspecified",
+      "purl": "pkg:generic/xgboost",
+      "bom-ref": "conda/xgboost@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xgcm",
+      "version": "unspecified",
+      "purl": "pkg:generic/xgcm",
+      "bom-ref": "conda/xgcm@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xhistogram",
+      "version": "unspecified",
+      "purl": "pkg:generic/xhistogram",
+      "bom-ref": "conda/xhistogram@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xmip",
+      "version": "unspecified",
+      "purl": "pkg:generic/xmip",
+      "bom-ref": "conda/xmip@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xmitgcm",
+      "version": "unspecified",
+      "purl": "pkg:generic/xmitgcm",
+      "bom-ref": "conda/xmitgcm@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xpublish",
+      "version": "unspecified",
+      "purl": "pkg:generic/xpublish",
+      "bom-ref": "conda/xpublish@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xrft",
+      "version": "unspecified",
+      "purl": "pkg:generic/xrft",
+      "bom-ref": "conda/xrft@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xskillscore",
+      "version": "unspecified",
+      "purl": "pkg:generic/xskillscore",
+      "bom-ref": "conda/xskillscore@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xxhash",
+      "version": "unspecified",
+      "purl": "pkg:generic/xxhash",
+      "bom-ref": "conda/xxhash@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xvec",
+      "version": "unspecified",
+      "purl": "pkg:generic/xvec",
+      "bom-ref": "conda/xvec@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "zarr",
+      "version": "unspecified",
+      "purl": "pkg:generic/zarr",
+      "bom-ref": "conda/zarr@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "flax",
+      "version": "unspecified",
+      "purl": "pkg:generic/flax",
+      "bom-ref": "conda/flax@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jax",
+      "version": "unspecified",
+      "purl": "pkg:generic/jax",
+      "bom-ref": "conda/jax@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jaxlib",
+      "version": "unspecified",
+      "purl": "pkg:generic/jaxlib",
+      "bom-ref": "conda/jaxlib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "keras-cv",
+      "version": "unspecified",
+      "purl": "pkg:generic/keras-cv",
+      "bom-ref": "conda/keras-cv@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python",
+      "version": "3.12",
+      "purl": "pkg:generic/python@3.12",
+      "bom-ref": "conda/python@3.12"
+    },
+    {
+      "type": "library",
+      "name": "tensorflow",
+      "version": "unspecified",
+      "purl": "pkg:generic/tensorflow",
+      "bom-ref": "conda/tensorflow@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pangeo-notebook",
+      "version": "2026.06.03",
+      "purl": "pkg:generic/pangeo-notebook@2026.06.03",
+      "bom-ref": "conda/pangeo-notebook@2026.06.03"
+    },
+    {
+      "type": "library",
+      "name": "pip",
+      "version": "unspecified",
+      "purl": "pkg:generic/pip",
+      "bom-ref": "conda/pip@unspecified"
+    }
+  ]
+}
