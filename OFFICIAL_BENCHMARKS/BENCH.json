@@ -1,0 +1,2503 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "PANGEO",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ACADEMIA_RD\\PANGEO\\UPSTREAM_CLONE",
+    "git": {
+      "head": "",
+      "url": "https://github.com/",
+      "branch": "master",
+      "committed_at": "2026-09-29T11:06:59+04:00"
+    }
+  },
+  "metrics": {
+    "files_total": 59,
+    "source_files_scanned": 12,
+    "lines_of_code": 318,
+    "languages": {
+      "(none)": 13,
+      ".yml": 11,
+      ".py": 10,
+      ".md": 9,
+      ".txt": 8,
+      ".lock": 4,
+      ".sh": 2,
+      ".yaml": 1,
+      ".bat": 1
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 173,
+    "unique": 158,
+    "by_ecosystem": {
+      "conda": 173
+    },
+    "list": [
+      {
+        "ecosystem": "conda",
+        "name": "notebook",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "-notebook"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "lock.",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "-lock."
+      },
+      {
+        "ecosystem": "conda",
+        "name": "notebook",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "-notebook"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "conda-forge",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "- conda-forge"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "nodefaults",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "- nodefaults"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "cuda-version",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "- cuda-version"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyterlab-nvdashboard",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "- jupyterlab-nvdashboard"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "gpytorch",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "- gpytorch"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pytorch",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "- pytorch"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "torchvision",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "- torchvision"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "torchgeo",
+        "version": "",
+        "source_file": "pytorch-notebook/environment.yml",
+        "raw": "- torchgeo"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "conda-forge",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- conda-forge"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "nodefaults",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- nodefaults"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "adlfs",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- adlfs"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "argopy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- argopy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "awscli",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- awscli"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "black",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- black"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "boto3",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- boto3"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "bottleneck",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- bottleneck"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "cartopy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- cartopy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "cdsapi",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- cdsapi"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "cfgrib",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- cfgrib"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "cf_xarray",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- cf_xarray"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ciso",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- ciso"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "cmocean",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- cmocean"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "contextily",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- contextily"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "dask-geopandas",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- dask-geopandas"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "dask-ml",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- dask-ml"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "datashader",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- datashader"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "descartes",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- descartes"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "duckdb-cli",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- duckdb-cli"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "earthaccess",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- earthaccess"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "eofs",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- eofs"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "erddapy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- erddapy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "esmpy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- esmpy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "fastjmd95",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- fastjmd95"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "flox",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- flox"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "fsspec",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- fsspec"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "gcm_filters",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- gcm_filters"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "gcsfs",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- gcsfs"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "gdal",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- gdal"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "gh",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- gh"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "gh-scoped-creds",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- gh-scoped-creds"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "geocube",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- geocube"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "geopandas",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- geopandas"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "geopy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- geopy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "geoviews-core",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- geoviews-core"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "git-lfs",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- git-lfs"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "google-cloud-sdk",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- google-cloud-sdk"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "gsw",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- gsw"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "h5netcdf",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- h5netcdf"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "h5py",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- h5py"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "holoviews",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- holoviews"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "hvplot",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- hvplot"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "icechunk",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- icechunk"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "intake",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- intake"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "intake-esm",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- intake-esm"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "intake-geopandas",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- intake-geopandas"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "intake-stac",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- intake-stac"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "intake-xarray",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- intake-xarray"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipdb",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- ipdb"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipykernel",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- ipykernel"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipyleaflet",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- ipyleaflet"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipympl",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- ipympl"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipytree",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- ipytree"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipywidgets",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- ipywidgets"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyterlab_code_formatter",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- jupyterlab_code_formatter"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyterlab-git",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- jupyterlab-git"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyterlab-lsp",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- jupyterlab-lsp"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyterlab-myst",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- jupyterlab-myst"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyter-panel-proxy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- jupyter-panel-proxy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyter-resource-usage",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- jupyter-resource-usage"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyter-sshd-proxy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- jupyter-sshd-proxy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "kerchunk",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- kerchunk"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "libgdal-arrow-parquet",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- libgdal-arrow-parquet"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "libgdal-netcdf",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- libgdal-netcdf"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "line_profiler",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- line_profiler"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "lonboard",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- lonboard"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "lxml",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- lxml"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "lz4",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- lz4"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "matplotlib-base",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- matplotlib-base"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "memory_profiler",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- memory_profiler"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "metpy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- metpy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "nb_conda_kernels",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- nb_conda_kernels"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "nbstripout",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- nbstripout"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "nc-time-axis",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- nc-time-axis"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "netcdf4",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- netcdf4"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "numbagg",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- numbagg"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "numcodecs",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- numcodecs"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "numpy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- numpy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "numpy_groupies",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- numpy_groupies"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "obstore",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- obstore"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "odc-stac",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- odc-stac"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "openssh",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- openssh"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pandas",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- pandas"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "panel",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- panel"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "https",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- https"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "parcels",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- parcels"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "param",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- param"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "planetary-computer",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- planetary-computer"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pop-tools",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- pop-tools"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pot",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- pot"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pyarrow",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- pyarrow"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pycamhd",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- pycamhd"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pydap",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- pydap"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pystac",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- pystac"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pystac-client",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- pystac-client"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "python-blosc",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- python-blosc"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "python-duckdb",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- python-duckdb"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "python-gist",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- python-gist"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "python-graphviz",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- python-graphviz"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "python-lsp-ruff",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- python-lsp-ruff"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "python-xxhash",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- python-xxhash"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "rasterio",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- rasterio"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "rclone",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- rclone"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "rechunker",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- rechunker"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "rio-cogeo",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- rio-cogeo"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "rioxarray",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- rioxarray"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ruff",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- ruff"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "s3fs",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- s3fs"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "satpy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- satpy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "scikit-image",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- scikit-image"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "scikit-learn",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- scikit-learn"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "scipy",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- scipy"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "seaborn",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- seaborn"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "sparse",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- sparse"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "snakeviz",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- snakeviz"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "stackstac",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- stackstac"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "tiledb-py",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- tiledb-py"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "timezonefinder",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- timezonefinder"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "virtualizarr",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- virtualizarr"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "watermark",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- watermark"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xarray",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xarray"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xarrayutils",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xarrayutils"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xarray_leaflet",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xarray_leaflet"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xarray-spatial",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xarray-spatial"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xbatcher",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xbatcher"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "forge",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "-forge"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "feedstock",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "-feedstock"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xcape",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xcape"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xclim",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xclim"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xesmf",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xesmf"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xgboost",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xgboost"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xgcm",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xgcm"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xhistogram",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xhistogram"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xmip",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xmip"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xmitgcm",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xmitgcm"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xpublish",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xpublish"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xrft",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xrft"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xskillscore",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xskillscore"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xxhash",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xxhash"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "xvec",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- xvec"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "zarr",
+        "version": "",
+        "source_file": "pangeo-notebook/environment.yml",
+        "raw": "- zarr"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "notebook",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "-notebook"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "lock.",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "-lock."
+      },
+      {
+        "ecosystem": "conda",
+        "name": "notebook",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "-notebook"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "conda-forge",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "- conda-forge"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "nodefaults",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "- nodefaults"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "cuda-version",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "- cuda-version"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "flax",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "- flax"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jax",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "- jax"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jaxlib",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "- jaxlib"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyterlab-nvdashboard",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "- jupyterlab-nvdashboard"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "keras-cv",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "- keras-cv"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "python",
+        "version": "3.12",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "- python=3.12"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "forge",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "-forge"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "feedstock",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "-feedstock"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "tensorflow",
+        "version": "",
+        "source_file": "ml-notebook/environment.yml",
+        "raw": "- tensorflow"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "conda-forge",
+        "version": "",
+        "source_file": "base-notebook/environment.yml",
+        "raw": "- conda-forge"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "nodefaults",
+        "version": "",
+        "source_file": "base-notebook/environment.yml",
+        "raw": "- nodefaults"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "python",
+        "version": "3.13",
+        "source_file": "base-notebook/environment.yml",
+        "raw": "- python=3.13"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pangeo-notebook",
+        "version": "2026.06.03",
+        "source_file": "base-notebook/environment.yml",
+        "raw": "- pangeo-notebook=2026.06.03"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pip",
+        "version": "",
+        "source_file": "base-notebook/environment.yml",
+        "raw": "- pip"
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 0,
+        "findings": []
+      },
+      "A04-InsecureDesign": {
+        "count": 0,
+        "findings": []
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 0,
+        "findings": []
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:9f22235a-c80d-5693-8116-201ec60421e9",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T07:00:46Z",
+      "component": {
+        "type": "application",
+        "name": "PANGEO",
+        "version": "83b357604d34",
+        "bom-ref": "pkg:generic/anticloud/PANGEO@83b357604d34",
+        "purl": "pkg:generic/anticloud/PANGEO@83b357604d34",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": ""
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "notebook",
+        "version": "unspecified",
+        "purl": "pkg:generic/notebook",
+        "bom-ref": "conda/notebook@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "lock.",
+        "version": "unspecified",
+        "purl": "pkg:generic/lock.",
+        "bom-ref": "conda/lock.@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "conda-forge",
+        "version": "unspecified",
+        "purl": "pkg:generic/conda-forge",
+        "bom-ref": "conda/conda-forge@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "nodefaults",
+        "version": "unspecified",
+        "purl": "pkg:generic/nodefaults",
+        "bom-ref": "conda/nodefaults@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "cuda-version",
+        "version": "unspecified",
+        "purl": "pkg:generic/cuda-version",
+        "bom-ref": "conda/cuda-version@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jupyterlab-nvdashboard",
+        "version": "unspecified",
+        "purl": "pkg:generic/jupyterlab-nvdashboard",
+        "bom-ref": "conda/jupyterlab-nvdashboard@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "gpytorch",
+        "version": "unspecified",
+        "purl": "pkg:generic/gpytorch",
+        "bom-ref": "conda/gpytorch@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pytorch",
+        "version": "unspecified",
+        "purl": "pkg:generic/pytorch",
+        "bom-ref": "conda/pytorch@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "torchvision",
+        "version": "unspecified",
+        "purl": "pkg:generic/torchvision",
+        "bom-ref": "conda/torchvision@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "torchgeo",
+        "version": "unspecified",
+        "purl": "pkg:generic/torchgeo",
+        "bom-ref": "conda/torchgeo@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "adlfs",
+        "version": "unspecified",
+        "purl": "pkg:generic/adlfs",
+        "bom-ref": "conda/adlfs@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "argopy",
+        "version": "unspecified",
+        "purl": "pkg:generic/argopy",
+        "bom-ref": "conda/argopy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "awscli",
+        "version": "unspecified",
+        "purl": "pkg:generic/awscli",
+        "bom-ref": "conda/awscli@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "black",
+        "version": "unspecified",
+        "purl": "pkg:generic/black",
+        "bom-ref": "conda/black@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "boto3",
+        "version": "unspecified",
+        "purl": "pkg:generic/boto3",
+        "bom-ref": "conda/boto3@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "bottleneck",
+        "version": "unspecified",
+        "purl": "pkg:generic/bottleneck",
+        "bom-ref": "conda/bottleneck@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "cartopy",
+        "version": "unspecified",
+        "purl": "pkg:generic/cartopy",
+        "bom-ref": "conda/cartopy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "cdsapi",
+        "version": "unspecified",
+        "purl": "pkg:generic/cdsapi",
+        "bom-ref": "conda/cdsapi@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "cfgrib",
+        "version": "unspecified",
+        "purl": "pkg:generic/cfgrib",
+        "bom-ref": "conda/cfgrib@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "cf_xarray",
+        "version": "unspecified",
+        "purl": "pkg:generic/cf_xarray",
+        "bom-ref": "conda/cf_xarray@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ciso",
+        "version": "unspecified",
+        "purl": "pkg:generic/ciso",
+        "bom-ref": "conda/ciso@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "cmocean",
+        "version": "unspecified",
+        "purl": "pkg:generic/cmocean",
+        "bom-ref": "conda/cmocean@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "contextily",
+        "version": "unspecified",
+        "purl": "pkg:generic/contextily",
+        "bom-ref": "conda/contextily@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "dask-geopandas",
+        "version": "unspecified",
+        "purl": "pkg:generic/dask-geopandas",
+        "bom-ref": "conda/dask-geopandas@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "dask-ml",
+        "version": "unspecified",
+        "purl": "pkg:generic/dask-ml",
+        "bom-ref": "conda/dask-ml@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "datashader",
+        "version": "unspecified",
+        "purl": "pkg:generic/datashader",
+        "bom-ref": "conda/datashader@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "descartes",
+        "version": "unspecified",
+        "purl": "pkg:generic/descartes",
+        "bom-ref": "conda/descartes@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "duckdb-cli",
+        "version": "unspecified",
+        "purl": "pkg:generic/duckdb-cli",
+        "bom-ref": "conda/duckdb-cli@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "earthaccess",
+        "version": "unspecified",
+        "purl": "pkg:generic/earthaccess",
+        "bom-ref": "conda/earthaccess@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "eofs",
+        "version": "unspecified",
+        "purl": "pkg:generic/eofs",
+        "bom-ref": "conda/eofs@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "erddapy",
+        "version": "unspecified",
+        "purl": "pkg:generic/erddapy",
+        "bom-ref": "conda/erddapy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "esmpy",
+        "version": "unspecified",
+        "purl": "pkg:generic/esmpy",
+        "bom-ref": "conda/esmpy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "fastjmd95",
+        "version": "unspecified",
+        "purl": "pkg:generic/fastjmd95",
+        "bom-ref": "conda/fastjmd95@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "flox",
+        "version": "unspecified",
+        "purl": "pkg:generic/flox",
+        "bom-ref": "conda/flox@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "fsspec",
+        "version": "unspecified",
+        "purl": "pkg:generic/fsspec",
+        "bom-ref": "conda/fsspec@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "gcm_filters",
+        "version": "unspecified",
+        "purl": "pkg:generic/gcm_filters",
+        "bom-ref": "conda/gcm_filters@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "gcsfs",
+        "version": "unspecified",
+        "purl": "pkg:generic/gcsfs",
+        "bom-ref": "conda/gcsfs@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "gdal",
+        "version": "unspecified",
+        "purl": "pkg:generic/gdal",
+        "bom-ref": "conda/gdal@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "gh",
+        "version": "unspecified",
+        "purl": "pkg:generic/gh",
+        "bom-ref": "conda/gh@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "gh-scoped-creds",
+        "version": "unspecified",
+        "purl": "pkg:generic/gh-scoped-creds",
+        "bom-ref": "conda/gh-scoped-creds@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "geocube",
+        "version": "unspecified",
+        "purl": "pkg:generic/geocube",
+        "bom-ref": "conda/geocube@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "geopandas",
+        "version": "unspecified",
+        "purl": "pkg:generic/geopandas",
+        "bom-ref": "conda/geopandas@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "geopy",
+        "version": "unspecified",
+        "purl": "pkg:generic/geopy",
+        "bom-ref": "conda/geopy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "geoviews-core",
+        "version": "unspecified",
+        "purl": "pkg:generic/geoviews-core",
+        "bom-ref": "conda/geoviews-core@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "git-lfs",
+        "version": "unspecified",
+        "purl": "pkg:generic/git-lfs",
+        "bom-ref": "conda/git-lfs@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "google-cloud-sdk",
+        "version": "unspecified",
+        "purl": "pkg:generic/google-cloud-sdk",
+        "bom-ref": "conda/google-cloud-sdk@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "gsw",
+        "version": "unspecified",
+        "purl": "pkg:generic/gsw",
+        "bom-ref": "conda/gsw@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "h5netcdf",
+        "version": "unspecified",
+        "purl": "pkg:generic/h5netcdf",
+        "bom-ref": "conda/h5netcdf@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "h5py",
+        "version": "unspecified",
+        "purl": "pkg:generic/h5py",
+        "bom-ref": "conda/h5py@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "holoviews",
+        "version": "unspecified",
+        "purl": "pkg:generic/holoviews",
+        "bom-ref": "conda/holoviews@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "hvplot",
+        "version": "unspecified",
+        "purl": "pkg:generic/hvplot",
+        "bom-ref": "conda/hvplot@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "icechunk",
+        "version": "unspecified",
+        "purl": "pkg:generic/icechunk",
+        "bom-ref": "conda/icechunk@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "intake",
+        "version": "unspecified",
+        "purl": "pkg:generic/intake",
+        "bom-ref": "conda/intake@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "intake-esm",
+        "version": "unspecified",
+        "purl": "pkg:generic/intake-esm",
+        "bom-ref": "conda/intake-esm@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "intake-geopandas",
+        "version": "unspecified",
+        "purl": "pkg:generic/intake-geopandas",
+        "bom-ref": "conda/intake-geopandas@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "intake-stac",
+        "version": "unspecified",
+        "purl": "pkg:generic/intake-stac",
+        "bom-ref": "conda/intake-stac@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "intake-xarray",
+        "version": "unspecified",
+        "purl": "pkg:generic/intake-xarray",
+        "bom-ref": "conda/intake-xarray@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ipdb",
+        "version": "unspecified",
+        "purl": "pkg:generic/ipdb",
+        "bom-ref": "conda/ipdb@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ipykernel",
+        "version": "unspecified",
+        "purl": "pkg:generic/ipykernel",
+        "bom-ref": "conda/ipykernel@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ipyleaflet",
+        "version": "unspecified",
+        "purl": "pkg:generic/ipyleaflet",
+        "bom-ref": "conda/ipyleaflet@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ipympl",
+        "version": "unspecified",
+        "purl": "pkg:generic/ipympl",
+        "bom-ref": "conda/ipympl@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ipytree",
+        "version": "unspecified",
+        "purl": "pkg:generic/ipytree",
+        "bom-ref": "conda/ipytree@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ipywidgets",
+        "version": "unspecified",
+        "purl": "pkg:generic/ipywidgets",
+        "bom-ref": "conda/ipywidgets@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jupyterlab_code_formatter",
+        "version": "unspecified",
+        "purl": "pkg:generic/jupyterlab_code_formatter",
+        "bom-ref": "conda/jupyterlab_code_formatter@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jupyterlab-git",
+        "version": "unspecified",
+        "purl": "pkg:generic/jupyterlab-git",
+        "bom-ref": "conda/jupyterlab-git@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jupyterlab-lsp",
+        "version": "unspecified",
+        "purl": "pkg:generic/jupyterlab-lsp",
+        "bom-ref": "conda/jupyterlab-lsp@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jupyterlab-myst",
+        "version": "unspecified",
+        "purl": "pkg:generic/jupyterlab-myst",
+        "bom-ref": "conda/jupyterlab-myst@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jupyter-panel-proxy",
+        "version": "unspecified",
+        "purl": "pkg:generic/jupyter-panel-proxy",
+        "bom-ref": "conda/jupyter-panel-proxy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jupyter-resource-usage",
+        "version": "unspecified",
+        "purl": "pkg:generic/jupyter-resource-usage",
+        "bom-ref": "conda/jupyter-resource-usage@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jupyter-sshd-proxy",
+        "version": "unspecified",
+        "purl": "pkg:generic/jupyter-sshd-proxy",
+        "bom-ref": "conda/jupyter-sshd-proxy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "kerchunk",
+        "version": "unspecified",
+        "purl": "pkg:generic/kerchunk",
+        "bom-ref": "conda/kerchunk@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libgdal-arrow-parquet",
+        "version": "unspecified",
+        "purl": "pkg:generic/libgdal-arrow-parquet",
+        "bom-ref": "conda/libgdal-arrow-parquet@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "libgdal-netcdf",
+        "version": "unspecified",
+        "purl": "pkg:generic/libgdal-netcdf",
+        "bom-ref": "conda/libgdal-netcdf@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "line_profiler",
+        "version": "unspecified",
+        "purl": "pkg:generic/line_profiler",
+        "bom-ref": "conda/line_profiler@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "lonboard",
+        "version": "unspecified",
+        "purl": "pkg:generic/lonboard",
+        "bom-ref": "conda/lonboard@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "lxml",
+        "version": "unspecified",
+        "purl": "pkg:generic/lxml",
+        "bom-ref": "conda/lxml@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "lz4",
+        "version": "unspecified",
+        "purl": "pkg:generic/lz4",
+        "bom-ref": "conda/lz4@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "matplotlib-base",
+        "version": "unspecified",
+        "purl": "pkg:generic/matplotlib-base",
+        "bom-ref": "conda/matplotlib-base@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "memory_profiler",
+        "version": "unspecified",
+        "purl": "pkg:generic/memory_profiler",
+        "bom-ref": "conda/memory_profiler@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "metpy",
+        "version": "unspecified",
+        "purl": "pkg:generic/metpy",
+        "bom-ref": "conda/metpy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "nb_conda_kernels",
+        "version": "unspecified",
+        "purl": "pkg:generic/nb_conda_kernels",
+        "bom-ref": "conda/nb_conda_kernels@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "nbstripout",
+        "version": "unspecified",
+        "purl": "pkg:generic/nbstripout",
+        "bom-ref": "conda/nbstripout@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "nc-time-axis",
+        "version": "unspecified",
+        "purl": "pkg:generic/nc-time-axis",
+        "bom-ref": "conda/nc-time-axis@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "netcdf4",
+        "version": "unspecified",
+        "purl": "pkg:generic/netcdf4",
+        "bom-ref": "conda/netcdf4@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "numbagg",
+        "version": "unspecified",
+        "purl": "pkg:generic/numbagg",
+        "bom-ref": "conda/numbagg@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "numcodecs",
+        "version": "unspecified",
+        "purl": "pkg:generic/numcodecs",
+        "bom-ref": "conda/numcodecs@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "numpy",
+        "version": "unspecified",
+        "purl": "pkg:generic/numpy",
+        "bom-ref": "conda/numpy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "numpy_groupies",
+        "version": "unspecified",
+        "purl": "pkg:generic/numpy_groupies",
+        "bom-ref": "conda/numpy_groupies@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "obstore",
+        "version": "unspecified",
+        "purl": "pkg:generic/obstore",
+        "bom-ref": "conda/obstore@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "odc-stac",
+        "version": "unspecified",
+        "purl": "pkg:generic/odc-stac",
+        "bom-ref": "conda/odc-stac@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "openssh",
+        "version": "unspecified",
+        "purl": "pkg:generic/openssh",
+        "bom-ref": "conda/openssh@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pandas",
+        "version": "unspecified",
+        "purl": "pkg:generic/pandas",
+        "bom-ref": "conda/pandas@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "panel",
+        "version": "unspecified",
+        "purl": "pkg:generic/panel",
+        "bom-ref": "conda/panel@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "https",
+        "version": "unspecified",
+        "purl": "pkg:generic/https",
+        "bom-ref": "conda/https@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "parcels",
+        "version": "unspecified",
+        "purl": "pkg:generic/parcels",
+        "bom-ref": "conda/parcels@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "param",
+        "version": "unspecified",
+        "purl": "pkg:generic/param",
+        "bom-ref": "conda/param@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "planetary-computer",
+        "version": "unspecified",
+        "purl": "pkg:generic/planetary-computer",
+        "bom-ref": "conda/planetary-computer@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pop-tools",
+        "version": "unspecified",
+        "purl": "pkg:generic/pop-tools",
+        "bom-ref": "conda/pop-tools@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pot",
+        "version": "unspecified",
+        "purl": "pkg:generic/pot",
+        "bom-ref": "conda/pot@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pyarrow",
+        "version": "unspecified",
+        "purl": "pkg:generic/pyarrow",
+        "bom-ref": "conda/pyarrow@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pycamhd",
+        "version": "unspecified",
+        "purl": "pkg:generic/pycamhd",
+        "bom-ref": "conda/pycamhd@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pydap",
+        "version": "unspecified",
+        "purl": "pkg:generic/pydap",
+        "bom-ref": "conda/pydap@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pystac",
+        "version": "unspecified",
+        "purl": "pkg:generic/pystac",
+        "bom-ref": "conda/pystac@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pystac-client",
+        "version": "unspecified",
+        "purl": "pkg:generic/pystac-client",
+        "bom-ref": "conda/pystac-client@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "python-blosc",
+        "version": "unspecified",
+        "purl": "pkg:generic/python-blosc",
+        "bom-ref": "conda/python-blosc@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "python-duckdb",
+        "version": "unspecified",
+        "purl": "pkg:generic/python-duckdb",
+        "bom-ref": "conda/python-duckdb@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "python-gist",
+        "version": "unspecified",
+        "purl": "pkg:generic/python-gist",
+        "bom-ref": "conda/python-gist@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "python-graphviz",
+        "version": "unspecified",
+        "purl": "pkg:generic/python-graphviz",
+        "bom-ref": "conda/python-graphviz@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "python-lsp-ruff",
+        "version": "unspecified",
+        "purl": "pkg:generic/python-lsp-ruff",
+        "bom-ref": "conda/python-lsp-ruff@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "python-xxhash",
+        "version": "unspecified",
+        "purl": "pkg:generic/python-xxhash",
+        "bom-ref": "conda/python-xxhash@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "rasterio",
+        "version": "unspecified",
+        "purl": "pkg:generic/rasterio",
+        "bom-ref": "conda/rasterio@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "rclone",
+        "version": "unspecified",
+        "purl": "pkg:generic/rclone",
+        "bom-ref": "conda/rclone@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "rechunker",
+        "version": "unspecified",
+        "purl": "pkg:generic/rechunker",
+        "bom-ref": "conda/rechunker@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "rio-cogeo",
+        "version": "unspecified",
+        "purl": "pkg:generic/rio-cogeo",
+        "bom-ref": "conda/rio-cogeo@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "rioxarray",
+        "version": "unspecified",
+        "purl": "pkg:generic/rioxarray",
+        "bom-ref": "conda/rioxarray@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ruff",
+        "version": "unspecified",
+        "purl": "pkg:generic/ruff",
+        "bom-ref": "conda/ruff@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "s3fs",
+        "version": "unspecified",
+        "purl": "pkg:generic/s3fs",
+        "bom-ref": "conda/s3fs@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "satpy",
+        "version": "unspecified",
+        "purl": "pkg:generic/satpy",
+        "bom-ref": "conda/satpy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "scikit-image",
+        "version": "unspecified",
+        "purl": "pkg:generic/scikit-image",
+        "bom-ref": "conda/scikit-image@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "scikit-learn",
+        "version": "unspecified",
+        "purl": "pkg:generic/scikit-learn",
+        "bom-ref": "conda/scikit-learn@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "scipy",
+        "version": "unspecified",
+        "purl": "pkg:generic/scipy",
+        "bom-ref": "conda/scipy@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "seaborn",
+        "version": "unspecified",
+        "purl": "pkg:generic/seaborn",
+        "bom-ref": "conda/seaborn@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "sparse",
+        "version": "unspecified",
+        "purl": "pkg:generic/sparse",
+        "bom-ref": "conda/sparse@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "snakeviz",
+        "version": "unspecified",
+        "purl": "pkg:generic/snakeviz",
+        "bom-ref": "conda/snakeviz@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "stackstac",
+        "version": "unspecified",
+        "purl": "pkg:generic/stackstac",
+        "bom-ref": "conda/stackstac@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "tiledb-py",
+        "version": "unspecified",
+        "purl": "pkg:generic/tiledb-py",
+        "bom-ref": "conda/tiledb-py@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "timezonefinder",
+        "version": "unspecified",
+        "purl": "pkg:generic/timezonefinder",
+        "bom-ref": "conda/timezonefinder@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "virtualizarr",
+        "version": "unspecified",
+        "purl": "pkg:generic/virtualizarr",
+        "bom-ref": "conda/virtualizarr@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "watermark",
+        "version": "unspecified",
+        "purl": "pkg:generic/watermark",
+        "bom-ref": "conda/watermark@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xarray",
+        "version": "unspecified",
+        "purl": "pkg:generic/xarray",
+        "bom-ref": "conda/xarray@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xarrayutils",
+        "version": "unspecified",
+        "purl": "pkg:generic/xarrayutils",
+        "bom-ref": "conda/xarrayutils@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xarray_leaflet",
+        "version": "unspecified",
+        "purl": "pkg:generic/xarray_leaflet",
+        "bom-ref": "conda/xarray_leaflet@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xarray-spatial",
+        "version": "unspecified",
+        "purl": "pkg:generic/xarray-spatial",
+        "bom-ref": "conda/xarray-spatial@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xbatcher",
+        "version": "unspecified",
+        "purl": "pkg:generic/xbatcher",
+        "bom-ref": "conda/xbatcher@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "forge",
+        "version": "unspecified",
+        "purl": "pkg:generic/forge",
+        "bom-ref": "conda/forge@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "feedstock",
+        "version": "unspecified",
+        "purl": "pkg:generic/feedstock",
+        "bom-ref": "conda/feedstock@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xcape",
+        "version": "unspecified",
+        "purl": "pkg:generic/xcape",
+        "bom-ref": "conda/xcape@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xclim",
+        "version": "unspecified",
+        "purl": "pkg:generic/xclim",
+        "bom-ref": "conda/xclim@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xesmf",
+        "version": "unspecified",
+        "purl": "pkg:generic/xesmf",
+        "bom-ref": "conda/xesmf@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xgboost",
+        "version": "unspecified",
+        "purl": "pkg:generic/xgboost",
+        "bom-ref": "conda/xgboost@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xgcm",
+        "version": "unspecified",
+        "purl": "pkg:generic/xgcm",
+        "bom-ref": "conda/xgcm@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xhistogram",
+        "version": "unspecified",
+        "purl": "pkg:generic/xhistogram",
+        "bom-ref": "conda/xhistogram@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xmip",
+        "version": "unspecified",
+        "purl": "pkg:generic/xmip",
+        "bom-ref": "conda/xmip@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xmitgcm",
+        "version": "unspecified",
+        "purl": "pkg:generic/xmitgcm",
+        "bom-ref": "conda/xmitgcm@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xpublish",
+        "version": "unspecified",
+        "purl": "pkg:generic/xpublish",
+        "bom-ref": "conda/xpublish@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xrft",
+        "version": "unspecified",
+        "purl": "pkg:generic/xrft",
+        "bom-ref": "conda/xrft@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xskillscore",
+        "version": "unspecified",
+        "purl": "pkg:generic/xskillscore",
+        "bom-ref": "conda/xskillscore@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xxhash",
+        "version": "unspecified",
+        "purl": "pkg:generic/xxhash",
+        "bom-ref": "conda/xxhash@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "xvec",
+        "version": "unspecified",
+        "purl": "pkg:generic/xvec",
+        "bom-ref": "conda/xvec@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "zarr",
+        "version": "unspecified",
+        "purl": "pkg:generic/zarr",
+        "bom-ref": "conda/zarr@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "flax",
+        "version": "unspecified",
+        "purl": "pkg:generic/flax",
+        "bom-ref": "conda/flax@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jax",
+        "version": "unspecified",
+        "purl": "pkg:generic/jax",
+        "bom-ref": "conda/jax@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jaxlib",
+        "version": "unspecified",
+        "purl": "pkg:generic/jaxlib",
+        "bom-ref": "conda/jaxlib@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "keras-cv",
+        "version": "unspecified",
+        "purl": "pkg:generic/keras-cv",
+        "bom-ref": "conda/keras-cv@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "python",
+        "version": "3.12",
+        "purl": "pkg:generic/python@3.12",
+        "bom-ref": "conda/python@3.12"
+      },
+      {
+        "type": "library",
+        "name": "tensorflow",
+        "version": "unspecified",
+        "purl": "pkg:generic/tensorflow",
+        "bom-ref": "conda/tensorflow@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pangeo-notebook",
+        "version": "2026.06.03",
+        "purl": "pkg:generic/pangeo-notebook@2026.06.03",
+        "bom-ref": "conda/pangeo-notebook@2026.06.03"
+      },
+      {
+        "type": "library",
+        "name": "pip",
+        "version": "unspecified",
+        "purl": "pkg:generic/pip",
+        "bom-ref": "conda/pip@unspecified"
+      }
+    ]
+  },
+  "elapsed_seconds": 3.45
+}
